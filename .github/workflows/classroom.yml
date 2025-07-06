@@ -28,4 +28,4 @@ jobs:
       env:
         ASSIGNMENT-TEST_RESULTS: "${{steps.fibonacci-test.outputs.result}}"
       with:
-        runners: fibonacci-test
+        runners: ["fibonacci-test"]
