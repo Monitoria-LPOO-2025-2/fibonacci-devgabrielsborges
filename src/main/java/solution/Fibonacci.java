@@ -9,7 +9,12 @@ package solution;  // Do not change it
 public class Fibonacci {
 
     public Fibonacci() {
-        // Default constructor
-        // Do not change it
+        
+    }
+
+    public int fibonacci(int n) {
+        if (n <= 1) return n;
+
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
